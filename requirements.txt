@@ -1,4 +1,5 @@
-selenium
-webdriver-manager
-openpyxl
+pyautogui
+pillow
 python-dotenv
+mouseinfo
+unittest
