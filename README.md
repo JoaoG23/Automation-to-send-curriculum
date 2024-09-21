@@ -1,7 +1,7 @@
 # automation-to-send-curriculum
 to send to email of curriculum
 
-- []  Search for email, HR person's name (optional), and technologies(optional) or extract one csv with values;
+- [x]  Search for email, HR person's name (optional), and technologies(optional) or extract one csv with values;
 - [x]  Open Outlook
     - [x]  Log in to the company email
 - [x]  Click on "New Email"
@@ -14,3 +14,9 @@ to send to email of curriculum
     pip install -r requirements.txt
 
     python -m mouseinfo
+
+
+You let all abas of email closed
+This way;
+
+![alt text](image.png)
