@@ -12,12 +12,22 @@ load_dotenv()
 curriculums_path = os.getenv("PATH_WHERE_CURRICULUMS")
 
 def send_email_for_job(job):
+    print(job)
     
     email = job[0]
     tech = job[1]
     details_job = job[2]
+    salary = job[3]
+    message = f"""Prezada Equipe de RH,
+
+Gostaria de me candidatar à vaga de Desenvolvedor de Software {details_job}. Com sólida experiência em desenvolvimento de software, acredito que posso contribuir significativamente para a equipe.
+Anexo meu currículo para sua apreciação. Estou à disposição para uma entrevista e maiores esclarecimentos. Expectativas salárial: {salary}
+
+Agradeço a oportunidade.
+"""
     
-    msg = f"""Prezada Equipe de RH,
+    if salary == "":
+        message = f"""Prezada Equipe de RH,
 
 Gostaria de me candidatar à vaga de Desenvolvedor de Software {details_job}. Com sólida experiência em desenvolvimento de software, acredito que posso contribuir significativamente para a equipe.
 Anexo meu currículo para sua apreciação. Estou à disposição para uma entrevista e maiores esclarecimentos.
@@ -25,11 +35,10 @@ Anexo meu currículo para sua apreciação. Estou à disposição para uma entre
 Agradeço a oportunidade.
 """
     
+    
+    
     image_email_path = os.path.join(os.getcwd(), 'assets', 'email.png')
     # position_email_select = pyautogui.locateCenterOnScreen(image_email_path)
-    
-    # pyautogui.click(233,316, duration=0.2)
-    # # sleep(2)
     pyautogui.click(227,350, duration=0.3)
     sleep(2)
     pyautogui.click(161,134, duration=0.5)
@@ -37,9 +46,9 @@ Agradeço a oportunidade.
     pyautogui.click(561,263, duration=1)
     pyautogui.write(email, interval=0.03)
     pyautogui.click(473,326, duration=0.2)
-    pyautogui.write(f"Candidatura para Vaga de {details_job}", interval=0.03)
+    keyboard.write(f"Candidatura para Vaga de {details_job}", 0.03)
     pyautogui.click(482,397, duration=0.2)
-    keyboard.write(msg, 0.01)
+    keyboard.write(message, 0.01)
     sleep(1)
     
     pyautogui.click(607,78, duration=0.4)

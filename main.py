@@ -13,6 +13,7 @@ from src.utils.move_to_file.move_to_file import move_to_file
 if __name__ == '__main__':
     try:
         
+        pyautogui.FAILSAFE = False
         icon_navbar_path = os.path.join(os.getcwd(), 'assets', 'icon_navbar.png')
         icon_navbar_position = pyautogui.locateCenterOnScreen(icon_navbar_path)
         pyautogui.click(icon_navbar_position, duration=0.3)
@@ -27,8 +28,8 @@ if __name__ == '__main__':
         
         datetime_now = datetime.now().strftime('%Y%m%d%H%M%S')
         
-        path_file_imports = os.path.join(os.getcwd(), 'imports', 'jobs.csv')
-        path_file_export = os.path.join(os.getcwd(), 'reads', datetime_now +'.csv')
+        path_file_imports = os.path.join(os.getcwd(), 'import', 'jobs.csv')
+        path_file_export = os.path.join(os.getcwd(), 'exported', datetime_now +'.csv')
 
         with open(path_file_imports, 'r') as file:
             file_read = csv.reader(file, delimiter=';')
