@@ -1,5 +1,5 @@
 import os
-from utils.logging.log_manager.log_manager import write_to_log
+from src.utils.logging.log_manager.log_manager import write_to_log
 
 def move_to_file(source, destination):
     try:
