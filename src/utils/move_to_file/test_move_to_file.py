@@ -18,6 +18,7 @@ class TestMoveToFile(unittest2.TestCase):
 
     @mock.patch('os.rename', side_effect=OSError("File not found"))
     def test_move_to_file_failure(self, mock_rename):
+        
         source = "nonexistent.txt"
         destination = "destination.txt"
         

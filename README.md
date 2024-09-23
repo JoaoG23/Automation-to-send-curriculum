@@ -17,6 +17,4 @@ to send to email of curriculum
 
 
 You let all abas of email closed
-This way;
-
-![alt text](image.png)
+This way;![alt text](image.png)
