@@ -12,7 +12,6 @@ load_dotenv()
 curriculums_path = os.getenv("PATH_WHERE_CURRICULUMS")
 
 def send_email_for_job(job):
-    print(job)
     
     email = job[0]
     tech = job[1]
@@ -20,7 +19,7 @@ def send_email_for_job(job):
     salary = job[3]
     message = f"""Prezada Equipe de RH,
 
-Gostaria de me candidatar à vaga de Desenvolvedor de Software {details_job}. Com sólida experiência em desenvolvimento de software, acredito que posso contribuir significativamente para a equipe.
+Gostaria de me candidatar à vaga de {details_job}. Com sólida experiência em desenvolvimento de software, acredito que posso contribuir significativamente para a equipe.
 Anexo meu currículo para sua apreciação. Estou à disposição para uma entrevista e maiores esclarecimentos. Expectativas salárial: {salary}
 
 Agradeço a oportunidade.
@@ -29,7 +28,7 @@ Agradeço a oportunidade.
     if salary == "":
         message = f"""Prezada Equipe de RH,
 
-Gostaria de me candidatar à vaga de Desenvolvedor de Software {details_job}. Com sólida experiência em desenvolvimento de software, acredito que posso contribuir significativamente para a equipe.
+Gostaria de me candidatar à vaga de {details_job}. Com sólida experiência em desenvolvimento de software, acredito que posso contribuir significativamente para a equipe.
 Anexo meu currículo para sua apreciação. Estou à disposição para uma entrevista e maiores esclarecimentos.
 
 Agradeço a oportunidade.
