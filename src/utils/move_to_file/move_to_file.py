@@ -5,8 +5,6 @@ def move_to_file(source, destination):
     try:
         os.rename(source, destination)
 
-        print(f"File moved from {source} to {destination}")
-        
         write_to_log(f"File moved from {source} to {destination}")
     except FileNotFoundError as e:
         raise e
