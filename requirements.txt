@@ -2,5 +2,5 @@ pyautogui
 pillow
 python-dotenv
 mouseinfo
-unittest
+pytest
 keyboard
