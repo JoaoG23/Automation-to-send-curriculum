@@ -36,7 +36,7 @@ Agradeço a oportunidade.
     
     
     
-    image_email_path = os.path.join(os.getcwd(), 'assets', 'email.png')
+    # image_email_path = os.path.join(os.getcwd(), 'assets', 'email.png')
     # position_email_select = pyautogui.locateCenterOnScreen(image_email_path)
     pyautogui.click(227,350, duration=0.3)
     sleep(2)
