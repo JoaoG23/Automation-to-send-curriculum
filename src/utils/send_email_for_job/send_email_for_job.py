@@ -64,13 +64,15 @@ Agradeço a oportunidade.
     technology = tech
     sleep(3)
     if technology == 'Java':
-        pyautogui.doubleClick(361,232, duration=0.2)
+        pyautogui.doubleClick(496,245, duration=0.2)
     if technology == 'Javascript Frontend':
-        pyautogui.doubleClick(349,266, duration=0.2)
+        pyautogui.doubleClick(503,209, duration=0.2)
     if technology == 'Javascript Fullstack':
-        pyautogui.doubleClick(370,342, duration=0.2)
+        pyautogui.doubleClick(450,323, duration=0.2)
+    if technology == 'Node':
+        pyautogui.doubleClick(462,284, duration=0.2)
     if technology == 'Python':
-        pyautogui.doubleClick(463,378, duration=0.2)
+        pyautogui.doubleClick(474,368, duration=0.2)
     sleep(3)
     pyautogui.click(496,193, duration=0.2)
     
