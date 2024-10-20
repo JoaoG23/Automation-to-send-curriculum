@@ -63,17 +63,17 @@ Agradeço a oportunidade.
     pyautogui.click(642,67, duration=0.1)
     technology = tech
     sleep(3)
-    if technology == 'Java':
+    if technology == 'java':
         pyautogui.doubleClick(496,245, duration=0.2)
-    if technology == 'Javascript Frontend':
+    if technology == 'frontend':
         pyautogui.doubleClick(503,209, duration=0.2)
-    if technology == 'Javascript Fullstack':
+    if technology == 'fullstack':
         pyautogui.doubleClick(450,323, duration=0.2)
-    if technology == 'Node':
+    if technology == 'node':
         pyautogui.doubleClick(462,284, duration=0.2)
-    if technology == 'Python':
+    if technology == 'python':
         pyautogui.doubleClick(474,368, duration=0.2)
-    sleep(3)
+    sleep(7)
     pyautogui.click(496,193, duration=0.2)
     
     write_to_log(f'E-mail: {email} sent sucessfully')
