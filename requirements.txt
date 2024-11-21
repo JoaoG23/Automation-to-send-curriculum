@@ -3,3 +3,4 @@ python-dotenv
 mouseinfo
 keyboard
 pillow
+opencv_python

@@ -25,15 +25,15 @@ if __name__ == '__main__':
         pyautogui.click(icon_navbar_position, duration=0.3)
         sleep(10)
         
-        icon_maximize_window_path = os.path.join(os.getcwd(), 'assets', 'maximize_button.png')
-        icon_maximize_window_path = pyautogui.locateCenterOnScreen(icon_navbar_path , grayscale=True, confidence=.7)
-        pyautogui.click(icon_navbar_position, duration=0.3)
-        sleep(4)
+        pyautogui.keyDown('winleft')
+        pyautogui.press('up')
+        pyautogui.keyUp('winleft')
+        sleep(1)
         
-        image_email_path = os.path.join(os.getcwd(), 'assets', 'email.png')
-        email_select_position = pyautogui.locateCenterOnScreen(image_email_path)
+        # image_email_path = os.path.join(os.getcwd(), 'assets', 'email.png')
+        # email_select_position = pyautogui.locateCenterOnScreen(image_email_path , grayscale=True, confidence=.9)
         
-        # pyautogui.click(231,322, duration=0.1)
+        pyautogui.click(231,322, duration=0.2)
         sleep(2)
         
         datetime_now = datetime.now().strftime('%Y%m%d%H%M%S')
