@@ -58,15 +58,15 @@ def send_email_for_job(job):
     pyautogui.click(251,518, duration=0.2)
     sleep(2)
     if technology == 'java':
-        keyboard.write("joao-guilherme-desenvolvedor-java", 0.01)
+        keyboard.write("joao-guilherme-desenvolvedor-java", 0.03)
     if technology == 'frontend':
-        keyboard.write("joao-guilherme-desenvolvedor-frontend", 0.01)
+        keyboard.write("joao-guilherme-desenvolvedor-frontend", 0.03)
     if technology == 'fullstack':
-        keyboard.write("joao-guilherme-desenvolvedor-JS-fullstack", 0.01)
+        keyboard.write("joao-guilherme-desenvolvedor-JS-fullstack", 0.03)
     if technology == 'node':
-        keyboard.write("joao-guilherme-desenvolvedor-JS-backend", 0.01)
+        keyboard.write("joao-guilherme-desenvolvedor-JS-backend", 0.03)
     if technology == 'python':
-        keyboard.write("joao-guilherme-desenvolvedor-python", 0.01)
+        keyboard.write("joao-guilherme-desenvolvedor-python", 0.03)
     sleep(2)
     pyautogui.click(731,548, duration=0.2)
     sleep(7)
