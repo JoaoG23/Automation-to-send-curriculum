@@ -1,11 +1,13 @@
 import os
 from dotenv import load_dotenv
+import random
 
 import pyautogui
 from time import sleep
 import keyboard
 
 from src.utils.logging.log_manager.log_manager import write_to_log
+from src.utils.send_email_for_job import MESSAGES_BODY
 
 load_dotenv()
 
@@ -17,25 +19,15 @@ def send_email_for_job(job):
     tech = job[1]
     details_job = job[2]
     salary = job[3]
-    message = f"""Prezada Equipe de RH,
-
-Gostaria de me candidatar à vaga de {details_job}. Com sólida experiência em desenvolvimento de software, acredito que posso contribuir significativamente para a equipe.
-Anexo meu currículo para sua apreciação. Estou à disposição para uma entrevista e maiores esclarecimentos. Minhas expectativas salariais: {salary}
-
-Agradeço a oportunidade.
-"""
+    message = ""
+    message_random_salary = random.choice(MESSAGES_BODY.MESSAGES_BODY_WITH_SALARY)
+    message_salary_replaced = message_random_salary.replace("((details_job))", details_job).replace("((salary))", salary)
+    message = message_salary_replaced
     
     if salary == "":
-        message = f"""Prezada Equipe de RH,
-
-Gostaria de me candidatar à vaga de {details_job}. Com sólida experiência em desenvolvimento de software, acredito que posso contribuir significativamente para a equipe.
-Anexo meu currículo para sua apreciação. Estou à disposição para uma entrevista e maiores esclarecimentos.
-
-Agradeço a oportunidade.
-"""
-    
-    
-    
+        message_random_without_salary = random.choice(MESSAGES_BODY.MESSAGES_BODY_WITHOUT_SALARY)
+        message_without_salary_replaced = message_random_without_salary.replace("((details_job))", details_job)
+        message = message_without_salary_replaced
     # image_email_path = os.path.join(os.getcwd(), 'assets', 'email.png')
     # position_email_select = pyautogui.locateCenterOnScreen(image_email_path)
     pyautogui.click(227,350, duration=0.3)
@@ -63,16 +55,20 @@ Agradeço a oportunidade.
     pyautogui.click(642,67, duration=0.1)
     technology = tech
     sleep(3)
+    pyautogui.click(251,518, duration=0.2)
+    sleep(2)
     if technology == 'java':
-        pyautogui.doubleClick(496,245, duration=0.2)
+        keyboard.write("joao-guilherme-desenvolvedor-java", 0.01)
     if technology == 'frontend':
-        pyautogui.doubleClick(503,209, duration=0.2)
+        keyboard.write("joao-guilherme-desenvolvedor-frontend", 0.01)
     if technology == 'fullstack':
-        pyautogui.doubleClick(450,323, duration=0.2)
+        keyboard.write("joao-guilherme-desenvolvedor-JS-fullstack", 0.01)
     if technology == 'node':
-        pyautogui.doubleClick(462,284, duration=0.2)
+        keyboard.write("joao-guilherme-desenvolvedor-JS-backend", 0.01)
     if technology == 'python':
-        pyautogui.doubleClick(474,368, duration=0.2)
+        keyboard.write("joao-guilherme-desenvolvedor-python", 0.01)
+    sleep(2)
+    pyautogui.click(731,548, duration=0.2)
     sleep(7)
     pyautogui.click(496,193, duration=0.2)
     
