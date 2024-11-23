@@ -21,7 +21,7 @@ logger.addHandler(handler)
 
 def write_to_log(message, type='info'):
     if type == 'error':
-       return logger.error(message)
+       return logger.error(str(message))
     
-    return logger.info(message)
+    return logger.info(str(message))
 
