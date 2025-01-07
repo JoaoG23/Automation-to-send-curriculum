@@ -1,0 +1,7 @@
+As palavras chave para meus os modelo de curriculos 
+
+java
+frontend
+fullstack
+node
+python
