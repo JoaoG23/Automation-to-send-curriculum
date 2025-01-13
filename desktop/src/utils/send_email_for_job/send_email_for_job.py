@@ -6,12 +6,12 @@ import pyautogui
 from time import sleep
 import keyboard
 
-from utils.logging.log_manager.log_manager import write_to_log
-from utils.send_email_for_job import MESSAGES_BODY
+from src.utils.logging.log_manager.log_manager import write_to_log
+from src.utils.send_email_for_job import MESSAGES_BODY
 
 load_dotenv()
 
-curriculums_path = os.getenv("PATH_WHERE_RESUMES")
+curriculums_path = os.getenv("PATH_WHERE_CURRICULUMS")
 
 def send_email_for_job(job):
     
