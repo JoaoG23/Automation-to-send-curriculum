@@ -1,4 +1,4 @@
-# Automation to Send Curriculum for WEB 
+# (WEB Version) Automation to Send Curriculum for WEB 
 
 ##### Hours : 16
 

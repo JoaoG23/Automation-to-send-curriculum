@@ -1,4 +1,4 @@
-# (Web Version) Automation to Send Curriculum   
+# (Desktop Version) Automation to Send Curriculum   
 
 <img src="./assets/icon.ico" align="right">
 
