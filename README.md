@@ -1,10 +1,10 @@
-# Automation to Send Curriculum 
+# Automation to Send Resumes Outlook
 
 <img src="./assets/icon.ico" align="right">
 
 ## 1. Introduction  
 
-This project automates sending job application emails, including personalized content and attachments, using Microsoft Edge and Outlook. It processes data from a CSV file in the `imports` directory, sends emails, and updates the CSV after successful email delivery.
+This project automates sending job application emails, including personalized content and attachments, using Outlook. It processes data from a CSV file in the `imports` directory, sends emails, and updates the CSV after successful email delivery.
 
 ## 2. Technologies Used 📲  
 
@@ -16,6 +16,7 @@ This project automates sending job application emails, including personalized co
 ![Outlook](https://img.shields.io/badge/Outlook-Email-0078D4?logo=microsoft-outlook&logoColor=white)
 ![Edge](https://img.shields.io/badge/Edge-Browser-0078D7?logo=microsoft-edge&logoColor=white)
 
+[![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-FFD43B?style=for-the-badge&logo=python&logoColor=white)](https://pyautogui.readthedocs.io/)  [![Python-dotenv](https://img.shields.io/badge/dotenv-150458?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/python-dotenv/)  [![MouseInfo](https://img.shields.io/badge/MouseInfo-217346?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/MouseInfo/)  [![Keyboard](https://img.shields.io/badge/Keyboard-0078D4?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/keyboard/)  [![Pillow](https://img.shields.io/badge/Pillow-FFD43B?style=for-the-badge&logo=python&logoColor=white)](https://python-pillow.org/)  
 ## 3. Installation 🛠️  
 
 ### Steps to install:  
@@ -24,16 +25,17 @@ This project automates sending job application emails, including personalized co
    ```bash  
    git clone https://github.com/JoaoG23/automation-to-send-curriculum.git  
    ```  
+2. Open to dir **/web** or **/desktop**:  
+   ```bash  
+   automation-to-send-curriculum  
+    ├── desktop
+    ├── web
+   ```  
 2. Install dependencies:  
    ```bash  
    pip install -r requirements.txt  
    ```  
-3. Create a `.env` file with the following content:  
-   ```env  
-   PATH_WHERE_RESUMES="C:\\Users\\joaog\\Desktop\\web\\resumes"  
-   NAME_CANDIDATE="João Guilherme"  
-   EDGE_USER_PROFILE="C:\\Users\\joaog\\AppData\\Local\\Microsoft\\Edge\\User Data\\Profile 2"  
-   ```  
+3. Read to **README.md** inside to directory, for more instructions
 
 ## 4. Features ✔️  
 
@@ -47,51 +49,12 @@ This project automates sending job application emails, including personalized co
 
 ## 5. Directory Structure 📂  
 
-    automation-to-send-curriculum/web  
-    ├── exported/  
-    ├── imports/  
-    ├── logs/  
-    ├── resumes/  
-    ├── send_emails/  
-    ├── templates/  
-    ├── utils/  
-    ├── __init__.py  
-    ├── .env  
-    ├── README.md  
-    ├── requirements.txt  
+    automation-to-send-curriculum  
+    ├── desktop
+    ├── web
 
-## 6. How to Use 👨‍💻  
 
-1. Place your CSV in the `imports/` directory named `jobs.csv`, following the format in `model_csv_jobs.csv`.  
-2. Place resumes in the specified directory in the `.env` file.  
-3. Run the script:  
-   ```bash  
-   python __init__.py 
-   ```  
-4. Post-execution:  
-   - Emails will be sent.  
-   - CSV will be updated with the sent status.  
-
-## 7. Requirements  
-
-- Ensure Edge browser is installed.  
-- Pre-login to Microsoft account.  
-
-## 8. Benefits and Limitations 🛠️  
-
-### Benefits:  
-- Automates the process of sending multiple emails.  
-- Allows multitasking while automation runs.  
-
-### Limitations:  
-- Requires a stable internet connection.  
-- Must log in to Microsoft account beforehand.  
-- Only compatible with Edge due to security restrictions.  
-
-**Note:**  
-Microsoft’s security features may add random elements to the process, and their anti-bot systems can introduce challenges.
-
-## 9. Author  
+## 7. Author  
 
  <img style="border-radius:50%;" src="https://avatars.githubusercontent.com/u/80895578?v=4" width="100px;" alt=""/>  
  <br />  

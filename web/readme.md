@@ -1,4 +1,6 @@
-# Automation to Send Curriculum 
+# Automation to Send Curriculum for WEB 
+
+##### Hours : 16
 
 <img src="./assets/icon.ico" align="right">
 

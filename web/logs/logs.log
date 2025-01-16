@@ -1,0 +1,167 @@
+2025-01-14 09:13:10,843 - automation-to-send-curriculum-web - INFO - E-mail: helen.matos@nexmuv.com.br sent sucessfully, Recruiter: Helen Matos, Techonology: node
+2025-01-14 09:13:12,864 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250114091210.csv
+2025-01-14 09:13:12,864 - automation-to-send-curriculum-web - INFO - Resumes sent with success!1
+2025-01-14 12:58:34,326 - automation-to-send-curriculum-web - ERROR - Exception: Traceback (most recent call last):
+  File "parsers.pyx", line 1120, in pandas._libs.parsers.TextReader._convert_tokens
+  File "parsers.pyx", line 1272, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "parsers.pyx", line 1285, in pandas._libs.parsers.TextReader._string_convert
+  File "parsers.pyx", line 1535, in pandas._libs.parsers._string_box_utf8
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfa in position 31: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\__init__.py", line 69, in <module>
+    if not verify_email_sent_by_line_csv(i):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\send_emails\verify_email_sent_by_line_csv\verify_email_sent_by_line_csv.py", line 5, in verify_email_sent_by_line_csv
+    df = pd.read_csv('import/jobs.csv', sep=';', encoding='utf-8')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 626, in _read
+    return parser.read(nrows)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 838, in pandas._libs.parsers.TextReader.read_low_memory
+  File "parsers.pyx", line 921, in pandas._libs.parsers.TextReader._read_rows
+  File "parsers.pyx", line 1066, in pandas._libs.parsers.TextReader._convert_column_data
+  File "parsers.pyx", line 1127, in pandas._libs.parsers.TextReader._convert_tokens
+  File "parsers.pyx", line 1272, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "parsers.pyx", line 1285, in pandas._libs.parsers.TextReader._string_convert
+  File "parsers.pyx", line 1535, in pandas._libs.parsers._string_box_utf8
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfa in position 31: invalid start byte
+
+2025-01-14 13:00:55,894 - automation-to-send-curriculum-web - INFO - E-mail: camila.conde@triggolabs.com sent sucessfully, Recruiter: Camila Conde, Techonology: frontend
+2025-01-14 13:01:55,872 - automation-to-send-curriculum-web - INFO - E-mail: Rafaela.gonzalez@nava.com.br sent sucessfully, Recruiter: Rafaela, Techonology: java
+2025-01-14 13:02:55,623 - automation-to-send-curriculum-web - INFO - E-mail: Rafaela.gonzalez@nava.com.br sent sucessfully, Recruiter: Rafaela, Techonology: python
+2025-01-14 13:03:55,505 - automation-to-send-curriculum-web - INFO - E-mail: administrativo@petize.com.br sent sucessfully, Recruiter: Ruan Pablo, Techonology: frontend
+2025-01-14 13:04:56,483 - automation-to-send-curriculum-web - INFO - E-mail: marina@conectacapitalhumano.com sent sucessfully, Recruiter: Marina, Techonology: python
+2025-01-14 13:05:56,792 - automation-to-send-curriculum-web - INFO - E-mail: yasmin.souza@souyess.com.br sent sucessfully, Recruiter: Yasmin Souza, Techonology: frontend
+2025-01-14 13:06:56,858 - automation-to-send-curriculum-web - INFO - E-mail: yasmin.souza@souyess.com.br sent sucessfully, Recruiter: Yasmin Souza, Techonology: java
+2025-01-14 13:06:58,869 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250114125955.csv
+2025-01-14 13:06:58,869 - automation-to-send-curriculum-web - INFO - Resumes sent with success!7
+2025-01-15 14:39:37,759 - automation-to-send-curriculum-web - ERROR - Exception: Traceback (most recent call last):
+  File "parsers.pyx", line 1120, in pandas._libs.parsers.TextReader._convert_tokens
+  File "parsers.pyx", line 1272, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "parsers.pyx", line 1285, in pandas._libs.parsers.TextReader._string_convert
+  File "parsers.pyx", line 1535, in pandas._libs.parsers._string_box_utf8
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xed in position 31: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\__init__.py", line 69, in <module>
+    if not verify_email_sent_by_line_csv(i):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\send_emails\verify_email_sent_by_line_csv\verify_email_sent_by_line_csv.py", line 5, in verify_email_sent_by_line_csv
+    df = pd.read_csv('import/jobs.csv', sep=';', encoding='utf-8')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 626, in _read
+    return parser.read(nrows)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 838, in pandas._libs.parsers.TextReader.read_low_memory
+  File "parsers.pyx", line 921, in pandas._libs.parsers.TextReader._read_rows
+  File "parsers.pyx", line 1066, in pandas._libs.parsers.TextReader._convert_column_data
+  File "parsers.pyx", line 1127, in pandas._libs.parsers.TextReader._convert_tokens
+  File "parsers.pyx", line 1272, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "parsers.pyx", line 1285, in pandas._libs.parsers.TextReader._string_convert
+  File "parsers.pyx", line 1535, in pandas._libs.parsers._string_box_utf8
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xed in position 31: invalid continuation byte
+
+2025-01-15 14:40:04,571 - automation-to-send-curriculum-web - ERROR - Exception: Traceback (most recent call last):
+  File "parsers.pyx", line 1120, in pandas._libs.parsers.TextReader._convert_tokens
+  File "parsers.pyx", line 1272, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "parsers.pyx", line 1285, in pandas._libs.parsers.TextReader._string_convert
+  File "parsers.pyx", line 1535, in pandas._libs.parsers._string_box_utf8
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xed in position 31: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\__init__.py", line 69, in <module>
+    if not verify_email_sent_by_line_csv(i):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\send_emails\verify_email_sent_by_line_csv\verify_email_sent_by_line_csv.py", line 5, in verify_email_sent_by_line_csv
+    df = pd.read_csv('import/jobs.csv', sep=';', encoding='utf-8')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 626, in _read
+    return parser.read(nrows)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 838, in pandas._libs.parsers.TextReader.read_low_memory
+  File "parsers.pyx", line 921, in pandas._libs.parsers.TextReader._read_rows
+  File "parsers.pyx", line 1066, in pandas._libs.parsers.TextReader._convert_column_data
+  File "parsers.pyx", line 1127, in pandas._libs.parsers.TextReader._convert_tokens
+  File "parsers.pyx", line 1272, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "parsers.pyx", line 1285, in pandas._libs.parsers.TextReader._string_convert
+  File "parsers.pyx", line 1535, in pandas._libs.parsers._string_box_utf8
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xed in position 31: invalid continuation byte
+
+2025-01-15 14:46:50,552 - automation-to-send-curriculum-web - INFO - E-mail: jaquelinekreitlow@agtalentos.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: frontend
+2025-01-15 14:47:49,186 - automation-to-send-curriculum-web - INFO - E-mail: rh@spycar.com.br sent sucessfully, Recruiter: Spycar, Techonology: fullstack
+2025-01-15 14:48:47,791 - automation-to-send-curriculum-web - INFO - E-mail: rh.beierconsultoria@gmail.com.br sent sucessfully, Recruiter: Beier Consultoria, Techonology: python
+2025-01-15 14:49:46,665 - automation-to-send-curriculum-web - INFO - E-mail: daiane.cortez@experis.com.br sent sucessfully, Recruiter: Daiane Cortez, Techonology: fullstack
+2025-01-15 14:50:45,229 - automation-to-send-curriculum-web - INFO - E-mail: daiane.cortez@experis.com.br sent sucessfully, Recruiter: Daiane Cortez, Techonology: fullstack
+2025-01-15 14:51:44,024 - automation-to-send-curriculum-web - INFO - E-mail: fhrans.alves@experis.com.br sent sucessfully, Recruiter: Fhrans Sales, Techonology: fullstack
+2025-01-15 14:52:43,368 - automation-to-send-curriculum-web - INFO - E-mail: luiza.costa@experis.com.br sent sucessfully, Recruiter: Luiza Jardelino , Techonology: java
+2025-01-15 14:53:42,306 - automation-to-send-curriculum-web - INFO - E-mail: fernanda.ruiz@am53.com.br sent sucessfully, Recruiter: Fernanda Ruiz, Techonology: node
+2025-01-15 14:54:41,445 - automation-to-send-curriculum-web - INFO - E-mail: fernanda.ruiz@am53.com.br sent sucessfully, Recruiter: Fernanda Ruiz, Techonology: frontend
+2025-01-15 14:55:40,252 - automation-to-send-curriculum-web - INFO - E-mail: vagas@triplano.games sent sucessfully, Recruiter: Camila Bock, Techonology: fullstack
+2025-01-15 14:56:39,665 - automation-to-send-curriculum-web - INFO - E-mail: beatriz.belens@verx.com.br sent sucessfully, Recruiter: Beatriz, Techonology: node
+2025-01-15 14:57:38,594 - automation-to-send-curriculum-web - INFO - E-mail: mairasorge@yahoo.com.br sent sucessfully, Recruiter: Maira Sorge, Techonology: node
+2025-01-15 14:58:37,638 - automation-to-send-curriculum-web - INFO - E-mail: sejaiport@iportsolutions.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: fullstack
+2025-01-15 14:59:36,448 - automation-to-send-curriculum-web - INFO - E-mail: leticia.silva@opah.com.br sent sucessfully, Recruiter: Letícia Fonseca, Techonology: node
+2025-01-15 14:59:38,452 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250115144551.csv
+2025-01-15 14:59:38,452 - automation-to-send-curriculum-web - INFO - Resumes sent with success!14
+2025-01-15 16:52:43,631 - automation-to-send-curriculum-web - ERROR - Exception: Traceback (most recent call last):
+  File "C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\__init__.py", line 61, in <module>
+    with open(path_file_imports, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\github\\joaoG23\\pessoal\\Automation-to-send-curriculum\\web\\import\\jobs.csv'
+
+2025-01-15 17:00:14,571 - automation-to-send-curriculum-web - INFO - E-mail: contato@sysmov.com.br sent sucessfully, Recruiter: Jorge Luiz, Techonology: fullstack
+2025-01-15 17:01:13,628 - automation-to-send-curriculum-web - INFO - E-mail: rh@d3.works sent sucessfully, Recruiter: Recrutador(a), Techonology: fullstack
+2025-01-15 17:02:12,177 - automation-to-send-curriculum-web - INFO - E-mail: rh@go2win.com.br sent sucessfully, Recruiter: Sheila Beatriz, Techonology: python
+2025-01-15 17:03:10,873 - automation-to-send-curriculum-web - INFO - E-mail: administrativo@mundorevalida.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: fullstack
+2025-01-15 17:04:09,621 - automation-to-send-curriculum-web - INFO - E-mail: rafael.gpereira@g4f.com.br sent sucessfully, Recruiter: Rafael Gomes, Techonology: fullstack
+2025-01-15 17:05:08,688 - automation-to-send-curriculum-web - INFO - E-mail: vagas@assuranceit.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: java
+2025-01-15 17:06:07,620 - automation-to-send-curriculum-web - INFO - E-mail: vagas@assuranceit.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: java
+2025-01-15 17:07:06,443 - automation-to-send-curriculum-web - INFO - E-mail: vagas@assuranceit.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: node
+2025-01-15 17:08:05,295 - automation-to-send-curriculum-web - INFO - E-mail: vagas@assuranceit.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: java
+2025-01-15 17:09:04,003 - automation-to-send-curriculum-web - INFO - E-mail: rafael.gpereira@g4f.com.br sent sucessfully, Recruiter: Rafael Gomes, Techonology: python
+2025-01-15 17:10:02,589 - automation-to-send-curriculum-web - INFO - E-mail: rafael.gpereira@g4f.com.br sent sucessfully, Recruiter: Rafael Gomes, Techonology: fullstack
+2025-01-15 17:11:01,459 - automation-to-send-curriculum-web - INFO - E-mail: rafael.gpereira@g4f.com.br sent sucessfully, Recruiter: Rafael Gomes, Techonology: java
+2025-01-15 17:12:00,369 - automation-to-send-curriculum-web - INFO - E-mail: ana.carolina@pcdmais.com.br sent sucessfully, Recruiter: Ana Carolina, Techonology: fullstack
+2025-01-15 17:12:59,033 - automation-to-send-curriculum-web - INFO - E-mail: tamires.silva@gbtsolutions.pt sent sucessfully, Recruiter: Tamires Silva, Techonology: java
+2025-01-15 17:13:57,800 - automation-to-send-curriculum-web - INFO - E-mail: aline.lima@metanetsistemas.com.br sent sucessfully, Recruiter: Aline Lima, Techonology: java
+2025-01-15 17:14:56,391 - automation-to-send-curriculum-web - INFO - E-mail: consultoria@entrustit.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: java
+2025-01-15 17:15:54,975 - automation-to-send-curriculum-web - INFO - E-mail: mariane.borondi@gateware.com.br sent sucessfully, Recruiter: Mariane, Techonology: frontend
+2025-01-15 17:16:53,663 - automation-to-send-curriculum-web - INFO - E-mail: raquel.justo@kstack.com.br sent sucessfully, Recruiter: Raquel Justo, Techonology: java
+2025-01-15 17:17:52,319 - automation-to-send-curriculum-web - INFO - E-mail: gteles@k2partnering.com sent sucessfully, Recruiter: Recrutador(a), Techonology: fullstack
+2025-01-15 17:18:51,265 - automation-to-send-curriculum-web - INFO - E-mail: deborah@bluesix.com.br sent sucessfully, Recruiter: Deborah, Techonology: node
+2025-01-15 17:18:53,269 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250115165915.csv
+2025-01-15 17:18:53,269 - automation-to-send-curriculum-web - INFO - Resumes sent with success!20

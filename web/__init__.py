@@ -49,9 +49,10 @@ def wait_for_element_load(element, name_elemento):
 if __name__ == '__main__':
     try:
     
+        driver.maximize_window()
+        sleep(1)
         driver.get("https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=169&ct=1736367757&rver=7.5.2211.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26cobrandid%3dab0455a0-8d03-46b9-b18b-df2f57b9e44c%26deeplink%3dowa%252f%253frealm%253dlive.com%26RpsCsrfState%3dccfc583d-fe0f-afde-5abd-826f8ab7a1c8&id=292841&aadredir=1&whr=live.com&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c")
         sleep(8)
-        
         datetime_now = datetime.now().strftime('%Y%m%d%H%M%S')
         
         path_file_imports = os.path.join(os.getcwd(), 'import', 'jobs.csv')

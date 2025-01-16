@@ -69,9 +69,11 @@ def send_email_for_job(driver, job, index):
     
     sleep(1)
     add_attachment_resume(driver, tech)
+    # send_email_button = driver.find_element(By.XPATH, "//*[@title='Enviar (Ctrl+Enter)']")
+    send_email_button  = WebDriverWait(driver, 15).until(
+        EC.element_to_be_clickable((By.XPATH, "//*[@title='Enviar (Ctrl+Enter)']"))
+    )
     
-    
-    send_email_button = driver.find_element(By.XPATH, "//*[@aria-label='Enviar']")
     sleep(2)
     send_email_button.click()
     sleep(2)
