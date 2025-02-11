@@ -165,3 +165,78 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\github\\joaoG23\\pe
 2025-01-15 17:18:51,265 - automation-to-send-curriculum-web - INFO - E-mail: deborah@bluesix.com.br sent sucessfully, Recruiter: Deborah, Techonology: node
 2025-01-15 17:18:53,269 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250115165915.csv
 2025-01-15 17:18:53,269 - automation-to-send-curriculum-web - INFO - Resumes sent with success!20
+2025-01-16 17:22:57,992 - automation-to-send-curriculum-web - INFO - E-mail: bruna@moot.com.br  sent sucessfully, Recruiter: Bruna, Techonology: frontend
+2025-01-16 17:23:58,169 - automation-to-send-curriculum-web - INFO - E-mail: bruna@moot.com.br  sent sucessfully, Recruiter: Recrutador(a), Techonology: fullstack
+2025-01-16 17:24:58,225 - automation-to-send-curriculum-web - INFO - E-mail: banco.talentos@acessorias.com sent sucessfully, Recruiter: Samuel, Techonology: fullstack
+2025-01-16 17:25:58,871 - automation-to-send-curriculum-web - INFO - E-mail: banco.talentos@acessorias.com sent sucessfully, Recruiter: Samuel, Techonology: python
+2025-01-16 17:26:58,916 - automation-to-send-curriculum-web - INFO - E-mail: daniela.faria@avuke.com.br sent sucessfully, Recruiter: Daniela Faria, Techonology: frontend
+2025-01-16 17:27:58,859 - automation-to-send-curriculum-web - INFO - E-mail: bruna.ferreira@squadra.com.br sent sucessfully, Recruiter: Bruna Ferreira, Techonology: frontend
+2025-01-16 17:28:59,224 - automation-to-send-curriculum-web - INFO - E-mail: joyce.lima@sysmap.com.br sent sucessfully, Recruiter: Joyce Lima, Techonology: java
+2025-01-16 17:29:59,105 - automation-to-send-curriculum-web - INFO - E-mail: vagas@innolevels.com.br sent sucessfully, Recruiter: Marina Lima, Techonology: python
+2025-01-16 17:30:01,114 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250116172157.csv
+2025-01-16 17:30:01,114 - automation-to-send-curriculum-web - INFO - Resumes sent with success!8
+2025-01-17 11:30:23,877 - automation-to-send-curriculum-web - ERROR - Exception: Traceback (most recent call last):
+  File "C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\__init__.py", line 63, in <module>
+    list_file = list(file_read)
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 312: character maps to <undefined>
+
+2025-01-17 11:31:58,173 - automation-to-send-curriculum-web - ERROR - Exception: Traceback (most recent call last):
+  File "C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\__init__.py", line 63, in <module>
+    list_file = list(file_read)
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 309: character maps to <undefined>
+
+2025-01-17 11:34:03,319 - automation-to-send-curriculum-web - ERROR - Exception: Traceback (most recent call last):
+  File "C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\__init__.py", line 63, in <module>
+    list_file = list(file_read)
+               ^^^^^^^^^^^^^^^
+_csv.Error: iterator should return strings, not bytes (the file should be opened in text mode)
+
+2025-01-17 11:59:27,455 - automation-to-send-curriculum-web - ERROR - Exception: Traceback (most recent call last):
+  File "C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\__init__.py", line 62, in <module>
+    file_read = csv.reader(file, delimiter=';' ,encoding='utf-8')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'encoding' is an invalid keyword argument for this function
+
+2025-01-17 12:01:56,486 - automation-to-send-curriculum-web - INFO - E-mail: valeria.campaner@govone.digital sent sucessfully, Recruiter: Valeria, Techonology: fullstack
+2025-01-17 12:02:56,848 - automation-to-send-curriculum-web - INFO - E-mail: alexsandra.souza@govone.digital sent sucessfully, Recruiter: Alexsandra, Techonology: fullstack
+2025-01-17 12:03:56,822 - automation-to-send-curriculum-web - INFO - E-mail: administrativo@petize.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: python
+2025-01-17 12:03:58,831 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250117120055.csv
+2025-01-17 12:03:58,831 - automation-to-send-curriculum-web - INFO - Resumes sent with success!3
+2025-01-18 11:34:14,547 - automation-to-send-curriculum-web - INFO - E-mail: rh@bluesix.com.br sent sucessfully, Recruiter: Isadora Santana, Techonology: python
+2025-01-18 11:35:13,315 - automation-to-send-curriculum-web - INFO - E-mail: rh@bluesix.com.br sent sucessfully, Recruiter: Isadora Santana, Techonology: python
+2025-01-18 11:36:12,097 - automation-to-send-curriculum-web - INFO - E-mail: rh@bluesix.com.br sent sucessfully, Recruiter: Isadora Santana, Techonology: python
+2025-01-18 11:37:10,636 - automation-to-send-curriculum-web - INFO - E-mail: flavia.fraga@squadra.com.br sent sucessfully, Recruiter: Ana Flávia, Techonology: java
+2025-01-18 11:38:09,145 - automation-to-send-curriculum-web - INFO - E-mail: flavia.fraga@squadra.com.br sent sucessfully, Recruiter: Ana Flávia, Techonology: fullstack
+2025-01-18 11:39:08,215 - automation-to-send-curriculum-web - INFO - E-mail: rh@multi24h.com.br sent sucessfully, Recruiter: Emily Pires, Techonology: java
+2025-01-18 11:39:10,220 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250118113314.csv
+2025-01-18 11:39:10,220 - automation-to-send-curriculum-web - INFO - Resumes sent with success!6
+2025-01-20 20:43:07,452 - automation-to-send-curriculum-web - INFO - E-mail: vagas@assuranceit.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: python
+2025-01-20 20:44:08,052 - automation-to-send-curriculum-web - INFO - E-mail: vagas@assuranceit.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: python
+2025-01-20 20:45:08,384 - automation-to-send-curriculum-web - INFO - E-mail: recrutamento@brhconsult.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: fullstack
+2025-01-20 20:46:08,817 - automation-to-send-curriculum-web - INFO - E-mail: carol@piquini.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: fullstack
+2025-01-20 20:47:09,059 - automation-to-send-curriculum-web - INFO - E-mail: rh@buni.digital sent sucessfully, Recruiter: Recrutador(a), Techonology: fullstack
+2025-01-20 20:48:09,201 - automation-to-send-curriculum-web - INFO - E-mail: rh@uniweld.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: fullstack
+2025-01-20 20:48:11,208 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250120204206.csv
+2025-01-20 20:48:11,208 - automation-to-send-curriculum-web - INFO - Resumes sent with success!6
+2025-01-27 10:42:54,327 - automation-to-send-curriculum-web - INFO - E-mail: recrutamento@bihands.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: frontend
+2025-01-27 10:43:53,137 - automation-to-send-curriculum-web - INFO - E-mail: vagas@e-deploy.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: python
+2025-01-27 10:44:51,980 - automation-to-send-curriculum-web - INFO - E-mail: paloma.rodrigues@cbyk.com.br sent sucessfully, Recruiter: Paloma Rodrigues, Techonology: java
+2025-01-27 10:45:50,834 - automation-to-send-curriculum-web - INFO - E-mail: ana.zaqueu@foursys.com.br sent sucessfully, Recruiter: Ana Zaqueu, Techonology: java
+2025-01-27 10:46:49,460 - automation-to-send-curriculum-web - INFO - E-mail: rh@multi24h.com.br sent sucessfully, Recruiter: Emily Pires, Techonology: java
+2025-01-27 10:47:48,635 - automation-to-send-curriculum-web - INFO - E-mail: marisa.cardilli@200dev.com sent sucessfully, Recruiter: Marisa, Techonology: node
+2025-01-27 10:48:47,483 - automation-to-send-curriculum-web - INFO - E-mail: curriculo@privacytools.com.br sent sucessfully, Recruiter: Marison Souza, Techonology: frontend
+2025-01-27 10:48:49,491 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250127104154.csv
+2025-01-27 10:48:49,491 - automation-to-send-curriculum-web - INFO - Resumes sent with success!7
+2025-02-04 12:38:03,478 - automation-to-send-curriculum-web - INFO - E-mail: yohan.limapo@kstack.com.br sent sucessfully, Recruiter: Yohan, Techonology: java
+2025-02-04 12:39:03,617 - automation-to-send-curriculum-web - INFO - E-mail: banco.talentos@acessorias.com sent sucessfully, Recruiter: Samuel, Techonology: fullstack
+2025-02-04 12:40:02,526 - automation-to-send-curriculum-web - INFO - E-mail: beatriz.lopes@codegroup.com.br sent sucessfully, Recruiter: Beatriz Lopez, Techonology: java
+2025-02-04 12:40:04,530 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250204123704.csv
+2025-02-04 12:40:04,530 - automation-to-send-curriculum-web - INFO - Resumes sent with success!3

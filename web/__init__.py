@@ -28,6 +28,7 @@ edge_user_profile = os.getenv("EDGE_USER_PROFILE")
 # Edge options
 edge_options = webdriver.EdgeOptions()
 edge_options.add_argument(f"user-data-dir={edge_user_profile}")
+edge_options.add_argument("--headless==new")
 edge_service = EdgeService(EdgeChromiumDriverManager().install())
 
 # Initialize Edge driver
@@ -58,7 +59,7 @@ if __name__ == '__main__':
         path_file_imports = os.path.join(os.getcwd(), 'import', 'jobs.csv')
         path_file_export = os.path.join(os.getcwd(),'exported', datetime_now +'.csv')
 
-        with open(path_file_imports, 'r') as file:
+        with open(path_file_imports, 'r', encoding='utf-8') as file:
             file_read = csv.reader(file, delimiter=';')
             list_file = list(file_read) 
             list_file.pop(0)
