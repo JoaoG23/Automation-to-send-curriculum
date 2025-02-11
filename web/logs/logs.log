@@ -240,3 +240,10 @@ TypeError: 'encoding' is an invalid keyword argument for this function
 2025-02-04 12:40:02,526 - automation-to-send-curriculum-web - INFO - E-mail: beatriz.lopes@codegroup.com.br sent sucessfully, Recruiter: Beatriz Lopez, Techonology: java
 2025-02-04 12:40:04,530 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250204123704.csv
 2025-02-04 12:40:04,530 - automation-to-send-curriculum-web - INFO - Resumes sent with success!3
+2025-02-11 19:39:10,574 - automation-to-send-curriculum-web - INFO - E-mail: devalphahouse@gmail.com sent sucessfully, Recruiter: Recrutador(a), Techonology: python
+2025-02-11 19:40:13,093 - automation-to-send-curriculum-web - INFO - E-mail: recrutamento@getitalent.com sent sucessfully, Recruiter: Recrutador(a), Techonology: java
+2025-02-11 19:41:14,504 - automation-to-send-curriculum-web - INFO - E-mail: patricia.rodrigues@pswdigital.com.br sent sucessfully, Recruiter: Patricia Rodrigues, Techonology: frontend
+2025-02-11 19:42:15,956 - automation-to-send-curriculum-web - INFO - E-mail: patricia.rodrigues@pswdigital.com.br sent sucessfully, Recruiter: Patricia Rodrigues, Techonology: python
+2025-02-11 19:43:16,882 - automation-to-send-curriculum-web - INFO - E-mail: rafael.gpereira@g4f.com.br sent sucessfully, Recruiter: Rafael, Techonology: java
+2025-02-11 19:43:18,894 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250211193807.csv
+2025-02-11 19:43:18,895 - automation-to-send-curriculum-web - INFO - Resumes sent with success!5

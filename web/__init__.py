@@ -28,7 +28,7 @@ edge_user_profile = os.getenv("EDGE_USER_PROFILE")
 # Edge options
 edge_options = webdriver.EdgeOptions()
 edge_options.add_argument(f"user-data-dir={edge_user_profile}")
-edge_options.add_argument("--headless==new")
+# edge_options.add_argument("--headless==new")
 edge_service = EdgeService(EdgeChromiumDriverManager().install())
 
 # Initialize Edge driver
