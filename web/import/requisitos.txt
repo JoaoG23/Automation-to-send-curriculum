@@ -6,3 +6,4 @@ fullstack
 node
 python
 tecnico_informatica
+english_fullstack
