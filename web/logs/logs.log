@@ -247,3 +247,21 @@ TypeError: 'encoding' is an invalid keyword argument for this function
 2025-02-11 19:43:16,882 - automation-to-send-curriculum-web - INFO - E-mail: rafael.gpereira@g4f.com.br sent sucessfully, Recruiter: Rafael, Techonology: java
 2025-02-11 19:43:18,894 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250211193807.csv
 2025-02-11 19:43:18,895 - automation-to-send-curriculum-web - INFO - Resumes sent with success!5
+2025-02-14 20:10:15,435 - automation-to-send-curriculum-web - INFO - E-mail: devalphahouse@gmail.com sent sucessfully, Recruiter: Recrutador(a), Techonology: python
+2025-02-14 20:11:18,275 - automation-to-send-curriculum-web - INFO - E-mail: recrutamento@getitalent.com sent sucessfully, Recruiter: Recrutador(a), Techonology: java
+2025-02-14 20:12:21,352 - automation-to-send-curriculum-web - INFO - E-mail: patricia.rodrigues@pswdigital.com.br sent sucessfully, Recruiter: Patricia Rodrigues, Techonology: frontend
+2025-02-14 20:13:23,770 - automation-to-send-curriculum-web - INFO - E-mail: patricia.rodrigues@pswdigital.com.br sent sucessfully, Recruiter: Patricia Rodrigues, Techonology: python
+2025-02-14 20:14:26,403 - automation-to-send-curriculum-web - INFO - E-mail: rafael.gpereira@g4f.com.br sent sucessfully, Recruiter: Rafael, Techonology: java
+2025-02-14 20:15:28,653 - automation-to-send-curriculum-web - INFO - E-mail: contato@coffstack.com sent sucessfully, Recruiter: Lucas Garcez, Techonology: frontend
+2025-02-14 20:15:30,666 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250214200911.csv
+2025-02-14 20:15:30,666 - automation-to-send-curriculum-web - INFO - Resumes sent with success!6
+2025-02-15 21:03:15,055 - automation-to-send-curriculum-web - INFO - E-mail: webdev@fracassi.tech sent sucessfully, Recruiter: Recrutador(a), Techonology: frontend
+2025-02-15 21:04:16,736 - automation-to-send-curriculum-web - INFO - E-mail: Lucas.affonso@freedomai.com.br sent sucessfully, Recruiter: Lucas, Techonology: frontend
+2025-02-15 21:05:18,262 - automation-to-send-curriculum-web - INFO - E-mail: rh@gtisolution.com.br sent sucessfully, Recruiter: Carlos Eduardo, Techonology: java
+2025-02-15 21:06:19,709 - automation-to-send-curriculum-web - INFO - E-mail: eduarda.tacidelli@proa.ai sent sucessfully, Recruiter: Eduarda Tacidelli, Techonology: fullstack
+2025-02-15 21:06:21,715 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250215210212.csv
+2025-02-15 21:06:21,715 - automation-to-send-curriculum-web - INFO - Resumes sent with success!4
+2025-02-19 21:24:28,583 - automation-to-send-curriculum-web - INFO - E-mail: admnistrarcondominio@gmail.com sent sucessfully, Recruiter: Recrutador(a), Techonology: java
+2025-02-19 21:25:32,631 - automation-to-send-curriculum-web - INFO - E-mail: rh@primova.com.br sent sucessfully, Recruiter: Débora Ng, Techonology: fullstack
+2025-02-19 21:25:34,640 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250219212322.csv
+2025-02-19 21:25:34,641 - automation-to-send-curriculum-web - INFO - Resumes sent with success!2
