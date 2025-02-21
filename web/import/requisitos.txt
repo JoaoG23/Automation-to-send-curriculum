@@ -5,3 +5,4 @@ frontend
 fullstack
 node
 python
+tecnico_informatica
