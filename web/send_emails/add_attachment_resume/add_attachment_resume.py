@@ -31,8 +31,8 @@ def add_attachment_resume(driver, technology):
     if technology == 'tecnico_informatica':
         attachment_file.send_keys(main_path + "\\joao-guilherme-tecnico-em-infomatica.pdf")
         sleep(7)
-    if technology == 'english_fullstack':
-        attachment_file.send_keys(main_path + "\\joao-guilherme-tecnico-em-infomatica.pdf")
-        sleep(7)
+    # if technology == 'english_fullstack':
+    #     attachment_file.send_keys(main_path + "\\joao-guilherme-tecnico-em-infomatica.pdf")
+    #     sleep(7)
     sleep(10)
     
