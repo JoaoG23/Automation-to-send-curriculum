@@ -15,8 +15,8 @@ if __name__ == '__main__':
     try:
         datetime_now = datetime.now().strftime('%Y%m%d%H%M%S')
         
-        path_file_imports = os.path.join(os.getcwd(), 'onlycode', 'import', 'jobs.csv')
-        path_file_export = os.path.join(os.getcwd(), 'onlycode', 'exported', datetime_now +'.csv')
+        path_file_imports = os.path.join(os.getcwd(), 'import', 'jobs.csv')
+        path_file_export = os.path.join(os.getcwd(), 'exported', datetime_now +'.csv')
 
         # Verificar se o arquivo existe
         if not os.path.exists(path_file_imports):

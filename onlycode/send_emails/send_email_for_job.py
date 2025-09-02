@@ -25,7 +25,7 @@ def send_email_for_job(job_data):
     recrutador = job_data[4]
     
     # Preparar o corpo do email usando os templates
-    path_templates_body = os.path.join(os.getcwd(), 'onlycode', 'templates')
+    path_templates_body = os.path.join(os.getcwd(), 'templates')
     corpo_email = prepare_to_body_email(job_data, path_templates_body)
     
     # Adicionar o footer
@@ -79,7 +79,7 @@ def selecionar_curriculo_por_tecnologia(tecnologia):
     """
     Seleciona o currículo apropriado baseado na tecnologia da vaga
     """
-    path_main = os.path.join(os.getcwd(), 'onlycode', 'resumes')
+    path_main = os.path.join(os.getcwd(), 'resumes')
     curriculos = {  
         'java': os.path.join(path_main, 'joao-guilherme-desenvolvedor-java.pdf'),
         'frontend': os.path.join(path_main, 'joao-guilherme-desenvolvedor-frontend.pdf'),
