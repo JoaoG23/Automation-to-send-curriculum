@@ -22,6 +22,7 @@ from utils.logging.log_manager.log_manager import write_to_log
 from utils.move_to_file.move_to_file import move_to_file
 
 
+load_dotenv()
 # User profile path
 edge_user_profile = os.getenv("EDGE_USER_PROFILE")
 
@@ -33,8 +34,6 @@ edge_service = EdgeService(EdgeChromiumDriverManager().install())
 
 # Initialize Edge driver
 driver = webdriver.Edge(service=edge_service, options=edge_options)
-
-load_dotenv()
 
 email_sender = os.getenv("EMAIL_USER")
 password_sender = os.getenv("PASSWORD_USER")

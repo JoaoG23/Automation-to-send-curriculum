@@ -64,7 +64,20 @@ This project automates sending job application emails, including personalized co
 
 ## 6. How to Use 👨‍💻  
 
-1. Place your CSV in the `imports/` directory named `jobs.csv`, following the format in `model_csv_jobs.csv`.  
+1. Place your CSV in the `imports/` directory named `jobs.csv`, following the format in `model_csv_jobs.csv`.
+
+Ex:
+```
+As palavras chave para meus os modelo de curriculos 
+
+java
+frontend
+fullstack
+node
+python
+tecnico_informatica
+english_fullstack
+```  
 2. Place resumes in the specified directory in the `.env` file.  
 3. Run the script:  
    ```bash  

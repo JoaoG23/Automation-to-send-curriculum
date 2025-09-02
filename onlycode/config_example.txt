@@ -1,0 +1,9 @@
+# Configurações de Email
+EMAIL_USER=seu_email@gmail.com
+PASSWORD_USER=sua_senha_de_app
+
+# Nota: Para Gmail, use uma senha de aplicativo, não sua senha normal
+# Para gerar uma senha de aplicativo:
+# 1. Acesse sua conta Google
+# 2. Vá em Segurança > Verificação em duas etapas
+# 3. Senhas de app > Gerar senha para "Email"

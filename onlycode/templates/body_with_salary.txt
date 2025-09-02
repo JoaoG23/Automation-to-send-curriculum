@@ -1,0 +1,6 @@
+Prezado(a) ((recruiter)),
+
+Gostaria de me candidatar à vaga de ((details_job)). Com sólida experiência em desenvolvimento de software, acredito que posso contribuir significativamente para a equipe.
+Anexo meu currículo para sua apreciação. Minhas expectativas salariais são, ((salary))
+
+Agradeço a oportunidade.

@@ -265,3 +265,181 @@ TypeError: 'encoding' is an invalid keyword argument for this function
 2025-02-19 21:25:32,631 - automation-to-send-curriculum-web - INFO - E-mail: rh@primova.com.br sent sucessfully, Recruiter: Débora Ng, Techonology: fullstack
 2025-02-19 21:25:34,640 - automation-to-send-curriculum-web - INFO - File moved from C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\import\jobs.csv to C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\exported\20250219212322.csv
 2025-02-19 21:25:34,641 - automation-to-send-curriculum-web - INFO - Resumes sent with success!2
+2025-03-06 08:30:00,934 - automation-to-send-curriculum-web - ERROR - WebDriverException: Traceback (most recent call last):
+  File "N:\github\Automation-to-send-curriculum\web\__init__.py", line 71, in <module>
+    send_email_for_job(driver, row, index_box_message_email)
+  File "N:\github\Automation-to-send-curriculum\web\send_emails\send_email_for_job.py", line 71, in send_email_for_job
+    add_attachment_resume(driver, tech)
+  File "N:\github\Automation-to-send-curriculum\web\send_emails\add_attachment_resume\add_attachment_resume.py", line 17, in add_attachment_resume
+    attachment_file.send_keys(main_path + "\\joao-guilherme-desenvolvedor-java.pdf")
+  File "N:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 301, in send_keys
+    self._execute(
+  File "N:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 570, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "N:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\github\joaoG23\pessoal\Automation-to-send-curriculum\web\resumes\joao-guilherme-desenvolvedor-java.pdf
+  (Session info: MicrosoftEdge=133.0.3065.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E9A6E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6E9CFB234+2060404]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6E9C52338+1368440]
+	(No symbol) [0x00007FF6E983D794]
+	(No symbol) [0x00007FF6E986425A]
+	(No symbol) [0x00007FF6E983964D]
+	(No symbol) [0x00007FF6E983950D]
+	(No symbol) [0x00007FF6E9864520]
+	(No symbol) [0x00007FF6E983964D]
+	(No symbol) [0x00007FF6E9881C00]
+	(No symbol) [0x00007FF6E9863FC3]
+	(No symbol) [0x00007FF6E9838B96]
+	(No symbol) [0x00007FF6E9837E50]
+	(No symbol) [0x00007FF6E98389C3]
+	(No symbol) [0x00007FF6E98C0214]
+	(No symbol) [0x00007FF6E99506CF]
+	(No symbol) [0x00007FF6E98C3A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6E9DB463D+279981]
+	simdutf::get_active_implementation [0x00007FF6E99F78C1+409425]
+	simdutf::get_active_implementation [0x00007FF6E99F2BA4+389684]
+	simdutf::get_active_implementation [0x00007FF6E99F2CE9+390009]
+	simdutf::get_active_implementation [0x00007FF6E99E62E6+338294]
+	BaseThreadInitThunk [0x00007FF9707C259D+29]
+	RtlUserThreadStart [0x00007FF97166AF38+40]
+
+
+2025-03-06 10:00:45,393 - automation-to-send-curriculum-web - INFO - E-mail: selecao@waz.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: tecnico_informatica
+2025-03-06 10:01:48,351 - automation-to-send-curriculum-web - INFO - E-mail: dp@semax.eng.br sent sucessfully, Recruiter: Recrutador(a), Techonology: java
+2025-03-06 10:02:51,626 - automation-to-send-curriculum-web - INFO - E-mail: rafael.gpereira@g4f.com.br sent sucessfully, Recruiter: Raffael Pereira, Techonology: java
+2025-03-06 10:02:53,633 - automation-to-send-curriculum-web - INFO - File moved from N:\github\Automation-to-send-curriculum\web\import\jobs.csv to N:\github\Automation-to-send-curriculum\web\exported\20250306095942.csv
+2025-03-06 10:02:53,633 - automation-to-send-curriculum-web - INFO - Resumes sent with success!3
+2025-03-14 20:37:58,672 - automation-to-send-curriculum-web - INFO - E-mail: contato@evollux.app sent sucessfully, Recruiter: Recrutador(a), Techonology: node
+2025-03-14 20:39:01,533 - automation-to-send-curriculum-web - INFO - E-mail: bruna.cardoso@cwi.com.br  sent sucessfully, Recruiter: Bruno, Techonology: java
+2025-03-14 20:40:04,129 - automation-to-send-curriculum-web - INFO - E-mail: vagas@innolevels.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: java
+2025-03-14 20:41:08,171 - automation-to-send-curriculum-web - INFO - E-mail: dani.fedoce@multi.bet.br sent sucessfully, Recruiter: Daniele Fedoce, Techonology: node
+2025-03-14 20:42:11,139 - automation-to-send-curriculum-web - INFO - E-mail: karina.lacerda@getitalent.com.br sent sucessfully, Recruiter: Karina Lacerda, Techonology: frontend
+2025-03-14 20:43:14,396 - automation-to-send-curriculum-web - INFO - E-mail: karina.lacerda@getitalent.com.br sent sucessfully, Recruiter: Karina Lacerda, Techonology: fullstack
+2025-03-14 20:43:16,402 - automation-to-send-curriculum-web - INFO - File moved from N:\github\Automation-to-send-curriculum\web\import\jobs.csv to N:\github\Automation-to-send-curriculum\web\exported\20250314203655.csv
+2025-03-14 20:43:16,402 - automation-to-send-curriculum-web - INFO - Resumes sent with success!6
+2025-03-17 19:49:21,564 - automation-to-send-curriculum-web - INFO - E-mail: joao.dutra.souza@tjmg.jus.br sent sucessfully, Recruiter: João Dutra, Techonology: python
+2025-03-17 19:50:24,653 - automation-to-send-curriculum-web - INFO - E-mail: rafael.gpereira@g4f.com.br sent sucessfully, Recruiter: Rafael Pereira, Techonology: java
+2025-03-17 19:50:26,673 - automation-to-send-curriculum-web - INFO - File moved from N:\github\Automation-to-send-curriculum\web\import\jobs.csv to N:\github\Automation-to-send-curriculum\web\exported\20250317194817.csv
+2025-03-17 19:50:26,673 - automation-to-send-curriculum-web - INFO - Resumes sent with success!2
+2025-05-12 14:44:40,324 - automation-to-send-curriculum-web - INFO - E-mail: leonardo.pimentel@entrustit.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: node
+2025-05-12 14:45:41,858 - automation-to-send-curriculum-web - INFO - E-mail: vagas@mblabs.com.br  sent sucessfully, Recruiter: Juliana Reis, Techonology: frontend
+2025-05-12 14:46:43,312 - automation-to-send-curriculum-web - INFO - E-mail: vagas@dinamio.com.br sent sucessfully, Recruiter: Maria Eduarda, Techonology: fullstack
+2025-05-12 14:46:45,330 - automation-to-send-curriculum-web - INFO - File moved from N:\github\Automation-to-send-curriculum\web\import\jobs.csv to N:\github\Automation-to-send-curriculum\web\exported\20250512144338.csv
+2025-05-12 14:46:45,330 - automation-to-send-curriculum-web - INFO - Resumes sent with success!3
+2025-05-13 20:38:57,897 - automation-to-send-curriculum-web - INFO - E-mail: angelica.bernardes@umgrauemeio.com sent sucessfully, Recruiter: Recrutador(a), Techonology: fullstack
+2025-05-13 20:38:59,932 - automation-to-send-curriculum-web - INFO - File moved from N:\github\Automation-to-send-curriculum\web\import\jobs.csv to N:\github\Automation-to-send-curriculum\web\exported\20250513203754.csv
+2025-05-13 20:38:59,932 - automation-to-send-curriculum-web - INFO - Resumes sent with success!1
+2025-05-19 20:14:45,467 - automation-to-send-curriculum-web - ERROR - WebDriverException: Traceback (most recent call last):
+  File "N:\github\Automation-to-send-curriculum\web\__init__.py", line 70, in <module>
+    send_email_for_job(driver, row, index_box_message_email)
+  File "N:\github\Automation-to-send-curriculum\web\send_emails\send_email_for_job.py", line 71, in send_email_for_job
+    add_attachment_resume(driver, tech)
+  File "N:\github\Automation-to-send-curriculum\web\send_emails\add_attachment_resume\add_attachment_resume.py", line 12, in add_attachment_resume
+    attachment_file = WebDriverWait(driver, 15).until(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "N:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 110, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 888, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "N:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: MicrosoftEdge=136.0.3240.76)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7BD37F965+25029]
+	(No symbol) [0x00007FF7BD2D4970]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7BD5DAA6A+1947706]
+	(No symbol) [0x00007FF7BD08B790]
+	(No symbol) [0x00007FF7BD0AA10A]
+	(No symbol) [0x00007FF7BD10ED27]
+	(No symbol) [0x00007FF7BD12609A]
+	(No symbol) [0x00007FF7BD108DF3]
+	(No symbol) [0x00007FF7BD0DD6A6]
+	(No symbol) [0x00007FF7BD0DCBB3]
+	(No symbol) [0x00007FF7BD0DD4D3]
+	(No symbol) [0x00007FF7BD1E5F0D]
+	(No symbol) [0x00007FF7BD1F3AAF]
+	(No symbol) [0x00007FF7BD1EC49F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7BD444A1A+284650]
+	(No symbol) [0x00007FF7BD2E2301]
+	(No symbol) [0x00007FF7BD2DADA4]
+	(No symbol) [0x00007FF7BD2DAEF3]
+	(No symbol) [0x00007FF7BD2CCB36]
+	BaseThreadInitThunk [0x00007FFA11F6E8D7+23]
+	RtlUserThreadStart [0x00007FFA13CDC5DC+44]
+
+
+2025-05-19 20:20:11,791 - automation-to-send-curriculum-web - ERROR - WebDriverException: Traceback (most recent call last):
+  File "N:\github\Automation-to-send-curriculum\web\__init__.py", line 70, in <module>
+    send_email_for_job(driver, row, index_box_message_email)
+  File "N:\github\Automation-to-send-curriculum\web\send_emails\send_email_for_job.py", line 50, in send_email_for_job
+    destination_email_input.send_keys(email)
+  File "N:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 301, in send_keys
+    self._execute(
+  File "N:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 570, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "N:\Users\joaog\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=136.0.3240.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7BD37F965+25029]
+	(No symbol) [0x00007FF7BD2D4970]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7BD5DAA6A+1947706]
+	(No symbol) [0x00007FF7BD0A230C]
+	(No symbol) [0x00007FF7BD0A4B9C]
+	(No symbol) [0x00007FF7BD0A4C6F]
+	(No symbol) [0x00007FF7BD0E8C83]
+	(No symbol) [0x00007FF7BD0E8B93]
+	(No symbol) [0x00007FF7BD0E8D26]
+	(No symbol) [0x00007FF7BD0E13D2]
+	(No symbol) [0x00007FF7BD10908A]
+	(No symbol) [0x00007FF7BD0DE15D]
+	(No symbol) [0x00007FF7BD0DE01D]
+	(No symbol) [0x00007FF7BD109350]
+	(No symbol) [0x00007FF7BD0DE15D]
+	(No symbol) [0x00007FF7BD126698]
+	(No symbol) [0x00007FF7BD108DF3]
+	(No symbol) [0x00007FF7BD0DD6A6]
+	(No symbol) [0x00007FF7BD0DCBB3]
+	(No symbol) [0x00007FF7BD0DD4D3]
+	(No symbol) [0x00007FF7BD1E5F0D]
+	(No symbol) [0x00007FF7BD1F3AAF]
+	(No symbol) [0x00007FF7BD1EC49F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7BD444A1A+284650]
+	(No symbol) [0x00007FF7BD2E2301]
+	(No symbol) [0x00007FF7BD2DADA4]
+	(No symbol) [0x00007FF7BD2DAEF3]
+	(No symbol) [0x00007FF7BD2CCB36]
+	BaseThreadInitThunk [0x00007FFA11F6E8D7+23]
+	RtlUserThreadStart [0x00007FFA13CDC5DC+44]
+
+
+2025-05-19 20:21:46,228 - automation-to-send-curriculum-web - INFO - E-mail: lilian.costa@alleasy.com.br sent sucessfully, Recruiter: Lilian Costa, Techonology: node
+2025-05-19 20:22:47,743 - automation-to-send-curriculum-web - INFO - E-mail: contato@devvo.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: fullstack
+2025-05-19 20:22:49,767 - automation-to-send-curriculum-web - INFO - File moved from N:\github\Automation-to-send-curriculum\web\import\jobs.csv to N:\github\Automation-to-send-curriculum\web\exported\20250519202044.csv
+2025-05-19 20:22:49,767 - automation-to-send-curriculum-web - INFO - Resumes sent with success!2
+2025-05-20 10:49:59,710 - automation-to-send-curriculum-web - INFO - E-mail: stephanie@jedis.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: frontend
+2025-05-20 10:51:01,176 - automation-to-send-curriculum-web - INFO - E-mail: stephanie@jedis.com.br sent sucessfully, Recruiter: Recrutador(a), Techonology: node
+2025-05-20 10:51:03,187 - automation-to-send-curriculum-web - INFO - File moved from N:\github\Automation-to-send-curriculum\web\import\jobs.csv to N:\github\Automation-to-send-curriculum\web\exported\20250520104857.csv
+2025-05-20 10:51:03,187 - automation-to-send-curriculum-web - INFO - Resumes sent with success!2
+2025-05-29 11:44:56,354 - automation-to-send-curriculum-web - INFO - E-mail: fabiana.cavalcante@gigroup.com sent sucessfully, Recruiter: Fabiana, Techonology: fullstack
+2025-05-29 11:44:58,392 - automation-to-send-curriculum-web - INFO - File moved from N:\github\Automation-to-send-curriculum\web\import\jobs.csv to N:\github\Automation-to-send-curriculum\web\exported\20250529114354.csv
+2025-05-29 11:44:58,392 - automation-to-send-curriculum-web - INFO - Resumes sent with success!1
