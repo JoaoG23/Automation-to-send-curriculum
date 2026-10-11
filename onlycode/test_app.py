@@ -9,6 +9,6 @@ msg.set_content("Enviado com senha de aplicativo.")
 
 with smtplib.SMTP("smtp.office365.com", 587) as smtp:
     smtp.starttls()
-    smtp.login("jguilhermeempresarial@outlook.com", "mhnnkpsiklsqxouq")
+    smtp.login("jguilhermeempresarial@outlook.com", "")
     smtp.send_message(msg)
     

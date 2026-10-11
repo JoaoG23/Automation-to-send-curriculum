@@ -86,7 +86,8 @@ def selecionar_curriculo_por_tecnologia(tecnologia):
         'fullstack': os.path.join(path_main, 'joao-guilherme-desenvolvedor-JS-fullstack.pdf'),
         'node': os.path.join(path_main, 'joao-guilherme-desenvolvedor-JS-backend.pdf'),
         'python': os.path.join(path_main, 'joao-guilherme-desenvolvedor-python.pdf'),
-        'tecnico_informatica': os.path.join(path_main, 'joao-guilherme-tecnico-em-infomatica.pdf')
+        'tecnico_informatica': os.path.join(path_main, 'joao-guilherme-tecnico-em-infomatica.pdf'),
+        'padrao': os.path.join(path_main, 'joao-guilherme-desenvolvedor.pdf')
     }
     
     # Mapear tecnologias similares
@@ -102,6 +103,8 @@ def selecionar_curriculo_por_tecnologia(tecnologia):
         return curriculos['python']
     elif tecnologia.lower() in ['tecnico', 'tecnico_informatica', 'suporte']:
         return curriculos['tecnico_informatica']
+    elif tecnologia.lower() in ['padrao', 'padrão', 'geral', 'desenvolvedor']:
+        return curriculos['padrao']
     else:
         # Padrão para tecnologias não mapeadas
-        return curriculos['fullstack']
+        return curriculos['padrao']

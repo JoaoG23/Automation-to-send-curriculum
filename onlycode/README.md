@@ -86,6 +86,7 @@ email@empresa.com;java;Desenvolvedor Java;;Nome Recrutador;
    - `joao-guilherme-desenvolvedor-JS-backend.pdf`
    - `joao-guilherme-desenvolvedor-python.pdf`
    - `joao-guilherme-tecnico-em-infomatica.pdf`
+   - `joao-guilherme-desenvolvedor.pdf` (padrão)
 
 3. Configure your `.env` file with Gmail credentials.
 
